@@ -7,7 +7,7 @@ class Dados
 		@rolagem = 0
 		@total = 0
 	end
-	def rolar (qtd)
+	def rolar (qtd) #incluir uma parâmetro de soma para esse método
 		1.upto(qtd) do |rolagem| 
 			rolagem = rand(1..@lados)
 			@total += rolagem.to_i
