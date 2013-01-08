@@ -19,5 +19,5 @@ No mais é só uma aplicação simples para aprender Ruby.
 Primeiro você cria o objeto, com a classe Dados passando um atributo pro método de inicialização.
 
     meuDado = Dados.new(6) // Isso faz um dado de seis faces
-    meudado.rolar(2) // => 2 números de 1 até 6 aleatórios e a soma no final.
+    meuDado.rolar(2) // => 2 números de 1 até 6 aleatórios e a soma no final.
     => 2, 3, Total: 5
